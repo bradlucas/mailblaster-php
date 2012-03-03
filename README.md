@@ -1,7 +1,7 @@
 # mailblaster-php
 =================
 
-Project to send Html mail using PHP. The script 'html-email.php' is in the src directory.
+Project to send Html mail using PHP. See `html-email.php` in the src directory.
 
 
 ### Usage
