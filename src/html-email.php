@@ -19,7 +19,9 @@ include('Mail/mime.php');
 
 $arguments = getopt("b:d:f:s:e:h:t:u:i:");
 
-$bcc = $arguments['b'];
+if (isset($arguments['b'])) {
+  $bcc = $arguments['b'];
+}
 $delay = $arguments['d'];
 $from = $arguments['f'];
 $subject = $arguments['s'];
